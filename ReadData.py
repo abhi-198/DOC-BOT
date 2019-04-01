@@ -9,21 +9,21 @@ import csv
 
 filename = "dataset.csv"
 
-fields = []
-rows = []
-
+data = dict()
 with open(filename, 'r') as csvfile:
-    csvreader = csv.reader(csvfile)
-    fields = csvreader.next()
+    reader = csv.reader(csvfile)
+    for disease,symtoms in reader:
+        if disease in data:
+            data[disease].append(symtoms)
+        else:
+            data[disease] = [symtoms]
+
+print(len(data.values()))
+
+for dis in data.values():
+    print(dis)
     
-    for row in csvreader:
-        rows.append(row)
-    print("total no. of rows : %d"%(csvreader.line_num))
+print(len(data.keys()))
 
-print('Field names are:' + ', '.join(field for field in fields)) 
-
-print("Data set")
-for row in rows:
-    for col in row:
-        print(col)
-    print()
+for dis in data.keys():
+    print(dis)
