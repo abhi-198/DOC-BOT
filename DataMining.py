@@ -1,25 +1,22 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr  3 00:00:12 2019
-
-@author: Abhishek
-"""
-
-
-from keras.utils.np_utils import to_categorical
 import numpy as np
 import csv
+from keras.layers im
 
-def vectorize_sequence(sequences,dimension=1000):
-  results = np.zeros((len(sequences),dimension))
-  for sequence in enumerate(sequences):
-    results[sequence] = 1
-  return results
+def vectorize(samples):
+  token_index = {}
+  for sample in samples:
+    for word in sample.split():
+      if word not in token_index:
+        token_index[word] = len(token_index) + 1
 
-def to_one_hot(labels,dimension):
-  results = np.zeros((len(labels),dimension))
-  for i, label in enumerate(labels):
-    results[i,label]=1
+  max_length = 10
+  results = np.zeros(shape=(len(samples),max_length,max(token_index.values()) + 1))
+
+  for i, sample in enumerate(samples):
+    for j, word in list(enumerate(sample.split()))[:max_length]:
+      index = token_index.get(word)
+      results[i, j, index] = 1.
+      
   return results
 
 
@@ -40,7 +37,7 @@ with open(filename, 'r') as csvfile:
 for disease, symtoms in data.items():
     data[disease]= " ".join(symtoms)
 
-label = to_categorical(data.keys())
-    
-x_train = vectorize_sequence(data.values())
-x_label = to_one_hot(data.keys(),133)
+x_train = vectorize(data.values())
+x_label = vectorize(data.keys())
+
+print(x_train,x_label)
