@@ -4,6 +4,7 @@ Created on Mon Apr  1 01:46:34 2019
 
 @author: Abhishek
 """
+import pickle
 import csv
 import numpy as np
 from sklearn.neural_network import MLPClassifier
@@ -36,11 +37,15 @@ for y in data.values():
     matrix[i][symtoms.index(x)] = 1
   i+=1
 
-diesase = np.array([x for x in range(133)])
+disease = np.array([x for x in range(133)])
 
 Disease_classifier = MLPClassifier(solver = 'lbfgs', alpha =1e-5, hidden_layer_sizes=(200,75,25), random_state = 1)
-Disease_classifier.fit(matrix,diesase)
+Disease_classifier.fit(matrix,disease)
 
-for x in range(133):
-    sample = [matrix[x]]
-    print(Disease_classifier.predict(sample))
+filename = 'DOC-BOT_model.sav'
+pickle.dump(Disease_classifier, open(filename, 'wb'))
+ 
+loaded_model = pickle.load(open(filename, 'rb'))
+result = loaded_model.score(matrix, disease)
+
+print(result)
