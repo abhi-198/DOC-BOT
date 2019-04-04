@@ -80,14 +80,14 @@ failure heart congestive,rale
 failure heart congestive,dyspnea
 failure heart congestive,cough
 failure heart congestive,wheezing
-accidentÂ cerebrovascular,dysarthria
-accidentÂ cerebrovascular,asthenia
-accidentÂ cerebrovascular,speech slurred
-accidentÂ cerebrovascular,facial paresis
-accidentÂ cerebrovascular,hemiplegia
-accidentÂ cerebrovascular,unresponsiveness
-accidentÂ cerebrovascular,seizure
-accidentÂ cerebrovascular,numbness
+accident  cerebrovascular,dysarthria
+accident  cerebrovascular,asthenia
+accident  cerebrovascular,speech slurred
+accident  cerebrovascular,facial paresis
+accident  cerebrovascular,hemiplegia
+accident  cerebrovascular,unresponsiveness
+accident  cerebrovascular,seizure
+accident  cerebrovascular,numbness
 asthma,wheezing
 asthma,cough
 asthma,shortness of breath
@@ -204,7 +204,7 @@ insufficiency renal,shortness of breath
 insufficiency renal,hyperkalemia
 insufficiency renal,orthopnea
 insufficiency renal,rale
-insufficiency renal,urgency ofÂ micturition
+insufficiency renal,urgency of  micturition
 insufficiency renal,ascites
 insufficiency renal,guaiac positive
 insufficiency renal,asthenia
@@ -237,17 +237,17 @@ confusion,lightheadedness
 confusion,tremor
 confusion,hyponatremia
 confusion,unresponsiveness
-degenerativeÂ polyarthritis,pain
-degenerativeÂ polyarthritis,food intolerance
-degenerativeÂ polyarthritis,numbness of hand
-degenerativeÂ polyarthritis,general discomfort
-degenerativeÂ polyarthritis,drowsiness
-degenerativeÂ polyarthritis,asthenia
-degenerativeÂ polyarthritis,nonsmoker
-degenerativeÂ polyarthritis,non-productive cough
-degenerativeÂ polyarthritis,polydypsia
-degenerativeÂ polyarthritis,stiffness
-degenerativeÂ polyarthritis,unsteady gait
+degenerative  polyarthritis,pain
+degenerative  polyarthritis,food intolerance
+degenerative  polyarthritis,numbness of hand
+degenerative  polyarthritis,general discomfort
+degenerative  polyarthritis,drowsiness
+degenerative  polyarthritis,asthenia
+degenerative  polyarthritis,nonsmoker
+degenerative  polyarthritis,non-productive cough
+degenerative  polyarthritis,polydypsia
+degenerative  polyarthritis,stiffness
+degenerative  polyarthritis,unsteady gait
 hypothyroidism,shortness of breath
 hypothyroidism,prostatism
 hypothyroidism,drowsiness sleepy
@@ -296,27 +296,26 @@ anxiety state,nightmare
 malignant neoplasms primary malignant neoplasm,pain
 malignant neoplasms primary malignant neoplasm,mass of body structure
 malignant neoplasms primary malignant neoplasm,lesion
-malignant neoplasms primary malignant neoplasm,cushingoid facies cushingoidÂ habitus
+malignant neoplasms primary malignant neoplasm,cushingoid facies cushingoid  habitus
 malignant neoplasms primary malignant neoplasm,emphysematous change
 malignant neoplasms primary malignant neoplasm,decreased body weight
 malignant neoplasms primary malignant neoplasm,ascites
 malignant neoplasms primary malignant neoplasm,hoarseness
 malignant neoplasms primary malignant neoplasm,thicken
 malignant neoplasms primary malignant neoplasm,hematuria
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,fever
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,night sweat
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,spontaneous rupture of membranes
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,cough
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,decreased body weight
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,chill
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,diarrhea
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,pleuritic pain
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,patient non compliance
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,tachypnea
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,productive cough
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,muscle hypotonia hypotonic
-acquiredÂ immuno-deficiency syndrome HIV hiv infections,feeling suicidal
+acquired  immuno-deficiency syndrome HIV hiv infections,fever
+acquired  immuno-deficiency syndrome HIV hiv infections,night sweat
+acquired  immuno-deficiency syndrome HIV hiv infections,spontaneous rupture of membranes
+acquired  immuno-deficiency syndrome HIV hiv infections,cough
+acquired  immuno-deficiency syndrome HIV hiv infections,decreased body weight
+acquired  immuno-deficiency syndrome HIV hiv infections,chill
+acquired  immuno-deficiency syndrome HIV hiv infections,diarrhea
+acquired  immuno-deficiency syndrome HIV hiv infections,pleuritic pain
+acquired  immuno-deficiency syndrome HIV hiv infections,patient non compliance
+acquired  immuno-deficiency syndrome HIV hiv infections,tachypnea
+acquired  immuno-deficiency syndrome HIV hiv infections,productive cough
+acquired  immuno-deficiency syndrome HIV hiv infections,muscle hypotonia hypotonic
+acquired  immuno-deficiency syndrome HIV hiv infections,feeling suicidal
 cellulitis,erythema
 cellulitis,pain
 cellulitis,swelling
@@ -445,7 +444,7 @@ cardiomyopathy,yellow sputum
 cardiomyopathy,rale
 cardiomyopathy,dyspnea
 cardiomyopathy,dyspnea on exertion
-cardiomyopathy,leftÂ atrialÂ hypertrophy
+cardiomyopathy,left  atrial  hypertrophy
 cardiomyopathy,fatigue
 cardiomyopathy,weight gain
 cardiomyopathy,patient non compliance
@@ -655,7 +654,7 @@ mitral valve insufficiency,hypokinesia
 mitral valve insufficiency,dyspnea
 mitral valve insufficiency,syncope
 mitral valve insufficiency,thicken
-mitral valve insufficiency,leftÂ atrialÂ hypertrophy
+mitral valve insufficiency,left  atrial  hypertrophy
 mitral valve insufficiency,palpitation
 mitral valve insufficiency,fatigue
 mitral valve insufficiency,vomiting
@@ -702,7 +701,7 @@ hemiparesis,unresponsiveness
 hemiparesis,stupor
 hemiparesis,drowsiness sleepy
 hemiparesis,fremitus
-hemiparesis,Stahli's line
+hemiparesis,stahli's line
 hemiparesis,stinging sensation
 hemiparesis,paralyse
 hemiparesis,clonus
@@ -730,7 +729,7 @@ transient ischemic attack,vertigo
 transient ischemic attack,numbness
 transient ischemic attack,lightheadedness
 transient ischemic attack,extrapyramidal sign
-transient ischemic attack,Stahli's line
+transient ischemic attack,stahli's line
 transient ischemic attack,vision blurred
 transient ischemic attack,headache
 transient ischemic attack,room spinning
@@ -790,17 +789,17 @@ incontinence,syncope
 incontinence,fall
 incontinence,stiffness
 incontinence,unresponsiveness
-paroxysmalÂ dyspnea,orthopnea
-paroxysmalÂ dyspnea,shortness of breath
-paroxysmalÂ dyspnea,dyspnea on exertion
-paroxysmalÂ dyspnea,jugular venous distention
-paroxysmalÂ dyspnea,rale
-paroxysmalÂ dyspnea,pain chest
-paroxysmalÂ dyspnea,palpitation
-paroxysmalÂ dyspnea,sweat sweating increased
-paroxysmalÂ dyspnea,weight gain
-paroxysmalÂ dyspnea,cough
-paroxysmalÂ dyspnea,dyspnea
+paroxysmal  dyspnea,orthopnea
+paroxysmal  dyspnea,shortness of breath
+paroxysmal  dyspnea,dyspnea on exertion
+paroxysmal  dyspnea,jugular venous distention
+paroxysmal  dyspnea,rale
+paroxysmal  dyspnea,pain chest
+paroxysmal  dyspnea,palpitation
+paroxysmal  dyspnea,sweat sweating increased
+paroxysmal  dyspnea,weight gain
+paroxysmal  dyspnea,cough
+paroxysmal  dyspnea,dyspnea
 hernia,pain abdominal
 hernia,pain
 hernia,hyperventilation
@@ -840,12 +839,12 @@ malignant neoplasm of prostate carcinoma prostate,mass of body structure
 malignant neoplasm of prostate carcinoma prostate,rhonchus
 malignant neoplasm of prostate carcinoma prostate,orthostasis
 malignant neoplasm of prostate carcinoma prostate,decreased body weight
-edema pulmonary,urgency ofÂ micturition
+edema pulmonary,urgency of  micturition
 edema pulmonary,shortness of breath
 edema pulmonary,rale
 edema pulmonary,tachypnea
 edema pulmonary,orthopnea
-edema pulmonary,Heberden's node
+edema pulmonary,heberden's node
 edema pulmonary,jugular venous distention
 edema pulmonary,dyspnea
 edema pulmonary,sweat sweating increased
@@ -922,7 +921,7 @@ diverticulitis,abdominal tenderness
 diverticulitis,fever
 diverticulitis,unsteady gait
 diverticulitis,thicken
-diverticulitis,urgency ofÂ micturition
+diverticulitis,urgency of  micturition
 diverticulitis,anorexia
 diverticulitis,monoclonal
 diverticulitis,constipation
@@ -1065,14 +1064,14 @@ hepatitis,distress respiratory
 hepatitis,fever
 hepatitis,vomiting
 hypertension pulmonary,shortness of breath
-hypertension pulmonary,Stahli's line
+hypertension pulmonary,stahli's line
 hypertension pulmonary,heavy legs
 hypertension pulmonary,breath sounds decreased
 hypertension pulmonary,neck stiffness
 hypertension pulmonary,dyspnea on exertion
 hypertension pulmonary,cyanosis
 hypertension pulmonary,hypotension
-hypertension pulmonary,leftÂ atrialÂ hypertrophy
+hypertension pulmonary,left  atrial  hypertrophy
 deglutition disorder,paresthesia
 deglutition disorder,titubation
 deglutition disorder,dysarthria
@@ -1100,7 +1099,7 @@ gout,ascites
 gout,patient non compliance
 thrombocytopaenia,ecchymosis
 thrombocytopaenia,monocytosis
-thrombocytopaenia,posteriorÂ rhinorrhea
+thrombocytopaenia,posterior  rhinorrhea
 thrombocytopaenia,haemorrhage
 thrombocytopaenia,tachypnea
 thrombocytopaenia,fever
@@ -1184,24 +1183,24 @@ suicide attempt,formication
 suicide attempt,unconscious state
 suicide attempt,fever
 suicide attempt,cough
-PneumocystisÂ cariniiÂ pneumonia,yellow sputum
-PneumocystisÂ cariniiÂ pneumonia,cachexia
-PneumocystisÂ cariniiÂ pneumonia,chill
-PneumocystisÂ cariniiÂ pneumonia,decreased body weight
-PneumocystisÂ cariniiÂ pneumonia,productive cough
-PneumocystisÂ cariniiÂ pneumonia,myalgia
-PneumocystisÂ cariniiÂ pneumonia,diarrhea
-PneumocystisÂ cariniiÂ pneumonia,neck stiffness
-PneumocystisÂ cariniiÂ pneumonia,hacking cough
-PneumocystisÂ cariniiÂ pneumonia,dyspareunia
-PneumocystisÂ cariniiÂ pneumonia,hypokalemia
-PneumocystisÂ cariniiÂ pneumonia,dyspnea on exertion
-PneumocystisÂ cariniiÂ pneumonia,poor dentition
-PneumocystisÂ cariniiÂ pneumonia,transaminitis
-PneumocystisÂ cariniiÂ pneumonia,non-productive cough
-PneumocystisÂ cariniiÂ pneumonia,headache
-PneumocystisÂ cariniiÂ pneumonia,floppy
-PneumocystisÂ cariniiÂ pneumonia,spontaneous rupture of membranes
+Pneumocystis  carinii  pneumonia,yellow sputum
+Pneumocystis  carinii  pneumonia,cachexia
+Pneumocystis  carinii  pneumonia,chill
+Pneumocystis  carinii  pneumonia,decreased body weight
+Pneumocystis  carinii  pneumonia,productive cough
+Pneumocystis  carinii  pneumonia,myalgia
+Pneumocystis  carinii  pneumonia,diarrhea
+Pneumocystis  carinii  pneumonia,neck stiffness
+Pneumocystis  carinii  pneumonia,hacking cough
+Pneumocystis  carinii  pneumonia,dyspareunia
+Pneumocystis  carinii  pneumonia,hypokalemia
+Pneumocystis  carinii  pneumonia,dyspnea on exertion
+Pneumocystis  carinii  pneumonia,poor dentition
+Pneumocystis  carinii  pneumonia,transaminitis
+Pneumocystis  carinii  pneumonia,non-productive cough
+Pneumocystis  carinii  pneumonia,headache
+Pneumocystis  carinii  pneumonia,floppy
+Pneumocystis  carinii  pneumonia,spontaneous rupture of membranes
 hepatitis B,inappropriate affect
 hepatitis B,tachypnea
 hepatitis B,yellow sputum
@@ -1245,7 +1244,7 @@ hyperglycemia,sore to touch
 hyperglycemia,pruritus
 hyperglycemia,feeling strange
 hyperglycemia,pustule
-hyperglycemia,cushingoid facies cushingoidÂ habitus
+hyperglycemia,cushingoid facies cushingoid  habitus
 hyperglycemia,decreased body weight
 hyperglycemia,mood depressed
 hyperglycemia,estrogen use
@@ -1402,20 +1401,20 @@ tonic-clonic epilepsy tonic-clonic seizures,absences finding
 tonic-clonic epilepsy tonic-clonic seizures,spasm
 tonic-clonic epilepsy tonic-clonic seizures,decreased body weight
 tonic-clonic epilepsy tonic-clonic seizures,tumor cell invasion
-malignantÂ neoplasms,pulsusÂ paradoxus
-malignantÂ neoplasms,gravida 
-malignantÂ neoplasms,mass of body structure
-malignantÂ neoplasms,lesion
-malignantÂ neoplasms,heartburn
-malignantÂ neoplasms,night sweat
-malignantÂ neoplasms,thicken
-malignantÂ neoplasms,chill
-malignantÂ neoplasms,decreased translucency
-malignantÂ neoplasms,pain abdominal
-malignantÂ neoplasms,dullness
-malignantÂ neoplasms,food intolerance
-malignantÂ neoplasms,distress respiratory
-malignantÂ neoplasms,hypotension
+malignant  neoplasms,pulsus  paradoxus
+malignant  neoplasms,gravida 
+malignant  neoplasms,mass of body structure
+malignant  neoplasms,lesion
+malignant  neoplasms,heartburn
+malignant  neoplasms,night sweat
+malignant  neoplasms,thicken
+malignant  neoplasms,chill
+malignant  neoplasms,decreased translucency
+malignant  neoplasms,pain abdominal
+malignant  neoplasms,dullness
+malignant  neoplasms,food intolerance
+malignant  neoplasms,distress respiratory
+malignant  neoplasms,hypotension
 respiratory failure,hemiplegia
 respiratory failure,snore
 respiratory failure,unresponsiveness
@@ -1445,7 +1444,7 @@ gastroenteritis,breath-holding spell
 gastroenteritis,nausea
 gastroenteritis,decreased body weight
 gastroenteritis,sore to touch
-gastroenteritis,scleralÂ icterus
+gastroenteritis,scleral  icterus
 gastroenteritis,fever
 gastroenteritis,myalgia
 gastroenteritis,hyponatremia
@@ -1596,7 +1595,7 @@ obesity morbid,renal angle tenderness
 obesity morbid,feels hot/feverish
 pyelonephritis,fever
 pyelonephritis,pain
-pyelonephritis,urgency ofÂ micturition
+pyelonephritis,urgency of  micturition
 pyelonephritis,hematuria
 pyelonephritis,vomiting
 pyelonephritis,chill
@@ -1620,8 +1619,7 @@ endocarditis,cough
 endocarditis,metastatic lesion
 endocarditis,breath sounds decreased
 endocarditis,decreased body weight
-endocarditis,Â 
-endocarditis,pulsusÂ paradoxus
+endocarditis,pulsus  paradoxus
 endocarditis,hypokinesia
 effusion pericardial pericardial effusion body substance,pericardial friction rub
 effusion pericardial pericardial effusion body substance,dyspnea
@@ -1688,7 +1686,7 @@ hyperbilirubinemia,tachypnea
 hyperbilirubinemia,para 
 hyperbilirubinemia,bradycardia
 hyperbilirubinemia,breech presentation
-hyperbilirubinemia,cushingoid facies cushingoidÂ habitus
+hyperbilirubinemia,cushingoid facies cushingoid  habitus
 hyperbilirubinemia,cough
 hyperbilirubinemia,myalgia
 influenza,uncoordination
@@ -1700,7 +1698,7 @@ influenza,malaise
 influenza,debilitation
 influenza,symptom aggravating factors
 influenza,chill
-influenza,scleralÂ icterus
+influenza,scleral  icterus
 influenza,nasal flaring
 influenza,dysuria
 influenza,lip smacking
@@ -1739,7 +1737,7 @@ thrombus,stool color yellow
 cholecystitis,moan
 cholecystitis,nausea
 cholecystitis,pain abdominal
-cholecystitis,Murphy's sign
+cholecystitis,murphy's sign
 cholecystitis,flatulence
 cholecystitis,colic abdominal
 cholecystitis,pain
@@ -1753,21 +1751,21 @@ cholecystitis,gasping for breath
 cholecystitis,constipation
 cholecystitis,feces in rectum
 cholecystitis,abnormally hard consistency
-herniaÂ hiatal,pain abdominal
-herniaÂ hiatal,fatigability
-herniaÂ hiatal,prodrome
-herniaÂ hiatal,vomiting
-herniaÂ hiatal,nausea
-herniaÂ hiatal,myalgia
-herniaÂ hiatal,hyponatremia
-herniaÂ hiatal,sore to touch
-herniaÂ hiatal,general discomfort
-herniaÂ hiatal,dyspnea on exertion
-herniaÂ hiatal,asterixis
-herniaÂ hiatal,guaiac positive
-herniaÂ hiatal,numbness of hand
-herniaÂ hiatal,headache
-herniaÂ hiatal,photophobia
+hernia  hiatal,pain abdominal
+hernia  hiatal,fatigability
+hernia  hiatal,prodrome
+hernia  hiatal,vomiting
+hernia  hiatal,nausea
+hernia  hiatal,myalgia
+hernia  hiatal,hyponatremia
+hernia  hiatal,sore to touch
+hernia  hiatal,general discomfort
+hernia  hiatal,dyspnea on exertion
+hernia  hiatal,asterixis
+hernia  hiatal,guaiac positive
+hernia  hiatal,numbness of hand
+hernia  hiatal,headache
+hernia  hiatal,photophobia
 migraine disorders,ambidexterity
 migraine disorders,vomiting
 migraine disorders,dizziness
@@ -1779,21 +1777,21 @@ pancytopenia,hypoproteinemia
 pancytopenia,fatigue
 pancytopenia,haemorrhage
 pancytopenia,fatigability
-pancytopenia,cushingoid facies cushingoidÂ habitus
+pancytopenia,cushingoid facies cushingoid  habitus
 pancytopenia,stool color yellow
 pancytopenia,colic abdominal
 cholelithiasis biliary calculus,vomiting
 cholelithiasis biliary calculus,nausea
 cholelithiasis biliary calculus,pain abdominal
 cholelithiasis biliary calculus,pain
-cholelithiasis biliary calculus,cushingoid facies cushingoidÂ habitus
+cholelithiasis biliary calculus,cushingoid facies cushingoid  habitus
 cholelithiasis biliary calculus,ascites
 cholelithiasis biliary calculus,thicken
 cholelithiasis biliary calculus,sore to touch
 cholelithiasis biliary calculus,diarrhea
 cholelithiasis biliary calculus,apyrexial
 cholelithiasis biliary calculus,palpitation
-tachycardia sinus,leftÂ atrialÂ hypertrophy
+tachycardia sinus,left  atrial  hypertrophy
 tachycardia sinus,sweat sweating increased
 tachycardia sinus,alcohol binge episode
 tachycardia sinus,pressure chest
