@@ -27,6 +27,11 @@ def add(event):
 def clear():
     Listbox1.delete(0,'end')
 
+def onselect(event):
+    box = event.widget
+    Entry1.delete(0,'end')
+    Entry1.insert(0,box.get(box.curselection()))
+    
 def predict():
     patient_sym = Listbox1.get(0,'end')
     if(len(patient_sym) != 0):
@@ -52,19 +57,19 @@ def mainPanel():
     Frame1.place(relx=0.0, rely=0.0, relheight=1.0, relwidth=1.0)
     Frame1.configure(relief='groove')
     Frame1.configure(borderwidth="2")
-    Frame1.configure(background="#c5ccd8")
+    Frame1.configure(background="#99d8d6")
                      
     Label1 = tk.Label(Frame1)
     Label1.place(relx=0.209, rely=0.032, height=51, width=194)
     Label1.configure(font="-family {Microsoft Tai Le} -size 18 -weight bold -underline 1")
-    Label1.configure(background="#b3d8cf")
+    Label1.configure(background="#99d8d6")
     Label1.configure(disabledforeground="#a3a3a3")
     Label1.configure(foreground="#000000")
     Label1.configure(text='''DOC-BOT''')
     Label1.configure(width=194)
     
     Labelframe1 = tk.LabelFrame(Frame1)
-    Labelframe1.place(relx=0.677, rely=0.016, relheight=0.976, relwidth=0.308)
+    Labelframe1.place(relx=0.616, rely=0.016, relheight=0.976, relwidth=0.382)
     Labelframe1.configure(font="-family {Microsoft Tai Le} -size 10 -weight bold")
     Labelframe1.configure(relief='groove')
     Labelframe1.configure(foreground="black")
@@ -72,13 +77,16 @@ def mainPanel():
     Labelframe1.configure(background="#d9d9d9")
     Labelframe1.configure(width=250)
 
+    global Listbox2
     Listbox2 = tk.Listbox(Labelframe1)
-    Listbox2.place(relx=0.02, rely=0.033, relheight=0.945, relwidth=0.936, bordermode='ignore')
-    Listbox2.configure(background="white")
+    Listbox2.place(relx=0.016, rely=0.033, relheight=0.945, relwidth=0.948, bordermode='ignore') 
+    Listbox2.configure(background="#c7f9ff")
     Listbox2.configure(disabledforeground="#a3a3a3")
     Listbox2.configure(font="TkFixedFont")
     Listbox2.configure(foreground="#000000")
     Listbox2.configure(width=234)
+    
+    Listbox2.bind('<<ListboxSelect>>', onselect)
     
     scrollbar = Scrollbar(Labelframe1, orient="vertical")
     scrollbar.config(command=Listbox2.yview)
@@ -90,9 +98,9 @@ def mainPanel():
         Listbox2.insert(tk.END, sym)
  
     Label2 = tk.Label(Frame1)
-    Label2.place(relx=0.062, rely=0.161, height=21, width=94)
+    Label2.place(relx=0.123, rely=0.194, height=21, width=104)
     Label2.configure(font="-family {Microsoft Tai Le} -size 10 -weight bold")
-    Label2.configure(background="#d9d9d9")
+    Label2.configure(background="#99d8d6")
     Label2.configure(disabledforeground="#a3a3a3")
     Label2.configure(foreground="#000000")
     Label2.configure(text='''Enter Symtoms''')
@@ -102,29 +110,29 @@ def mainPanel():
     
     global Entry1
     Entry1 = tk.Entry(Frame1)
-    Entry1.place(relx=0.222, rely=0.161,height=20, relwidth=0.202)
-    Entry1.configure(background="white",textvariable = entry_var)
+    Entry1.place(relx=0.259, rely=0.194,height=20, relwidth=0.239)
+    Entry1.configure(background="#d6e2ff",textvariable = entry_var)
     Entry1.configure(disabledforeground="#a3a3a3")
     Entry1.configure(foreground="#000000")
     Entry1.configure(insertbackground="black")
 
     global Listbox1
     Listbox1 = tk.Listbox(Frame1)
-    Listbox1.place(relx=0.222, rely=0.274, relheight=0.277, relwidth=0.202)
-    Listbox1.configure(background="white")
+    Listbox1.place(relx=0.123, rely=0.29, relheight=0.374, relwidth=0.374)
+    Listbox1.configure(background="#c7f9ff")
     Listbox1.configure(disabledforeground="#a3a3a3")
-    Listbox1.configure(font="TkFixedFont")
+    Listbox1.configure(font="-family {Microsoft Tai Le} -size 10")
     Listbox1.configure(foreground="#000000")
     Listbox1.configure(width=164)
 
     Entry1.bind("<Return>", add)
 
     Button2 = tk.Button(Frame1)
-    Button2.place(relx=0.222, rely=0.629, height=24, width=97)
+    Button2.place(relx=0.148, rely=0.726, height=30, width=97)
     Button2.configure(font="-family {Microsoft Tai Le} -size 10 -weight bold")
     Button2.configure(activebackground="#ececec" , command = predict)
     Button2.configure(activeforeground="#000000")
-    Button2.configure(background="#d9d9d9")
+    Button2.configure(background="#7fd89d")
     Button2.configure(disabledforeground="#a3a3a3")
     Button2.configure(foreground="#000000")
     Button2.configure(highlightbackground="#d9d9d9")
@@ -134,11 +142,11 @@ def mainPanel():
     Button2.configure(width=97)
  
     Button3 = tk.Button(Frame1)
-    Button3.place(relx=0.53, rely=0.629, height=24, width=69)
+    Button3.place(relx=0.369, rely=0.726, height=30, width=69)
     Button3.configure(font="-family {Microsoft Tai Le} -size 10 -weight bold")
     Button3.configure(activebackground="#ececec", command = clear)
     Button3.configure(activeforeground="#000000")
-    Button3.configure(background="#d9d9d9")
+    Button3.configure(background="#7fd89d")
     Button3.configure(disabledforeground="#a3a3a3")
     Button3.configure(foreground="#000000")
     Button3.configure(highlightbackground="#d9d9d9")
