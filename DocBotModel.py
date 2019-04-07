@@ -26,8 +26,8 @@ for x in data.values():
   for y in x:
     symtoms.add(y)
     
-    
 symtoms = sorted(symtoms)
+
 
 matrix = np.zeros((len(data.keys()),len(symtoms)))
 
@@ -37,9 +37,10 @@ for y in data.values():
     matrix[i][symtoms.index(x)] = 1
   i+=1
 
+
 disease = np.array([x for x in range(133)])
 
-Disease_classifier = MLPClassifier(solver = 'lbfgs', alpha =1e-5, hidden_layer_sizes=(200,75,25), random_state = 1)
+Disease_classifier = MLPClassifier(solver = 'lbfgs', alpha =1e-5, hidden_layer_sizes=(200,200), random_state = 1)
 Disease_classifier.fit(matrix,disease)
 
 filename = 'DOC-BOT_model.sav'
