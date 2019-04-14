@@ -45,7 +45,7 @@ def onselect(event):
 def predict():
     patient_sym = Listbox1.get(0,'end')
     if(len(patient_sym) != 0):
-        sym_vect = [0]*398
+        sym_vect = [0]*len(Symtoms)
         for sym in patient_sym:
             if sym in Symtoms:
                 sym_vect[Symtoms.index(sym)]=1
@@ -179,7 +179,7 @@ if __name__ == "__main__":
     filename = 'DOC-BOT_model.sav'
     
     data = dict()
-    with open('Dataset.csv','r') as file:
+    with open('Dataset.csv','r',encoding = "ISO-8859-1") as file:
         reader = csv.reader(file)
         for disease,symtoms in reader:
             if disease in data:
@@ -199,7 +199,7 @@ if __name__ == "__main__":
 
     global doc
     doc = list()
-    with open('Doctor.csv','r') as file:
+    with open('Doctor.csv','r',encoding = "ISO-8859-1") as file:
         reader = csv.reader(file)
         for x in reader:
             doc.append(x)
